@@ -1,0 +1,9 @@
+Employee Names
+https://www.hackerrank.com/challenges/weather-observation-station-10/problem
+
+Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+Query: MySql
+Select name
+From Employee
+Order By Name ASC
