@@ -1,0 +1,21 @@
+Weather Observation Station 6
+https://www.hackerrank.com/challenges/weather-observation-station-6/problem
+
+Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+Query: MySql
+
+select distinct city from station
+where city like "a%" 
+union
+select distinct city from station
+where city like "e%" 
+union
+select distinct city from station
+where city like "i%" 
+union
+select distinct city from station
+where city like "o%" 
+union
+select distinct city from station
+where city like "u%";
