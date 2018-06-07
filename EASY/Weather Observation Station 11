@@ -1,0 +1,9 @@
+Weather Observation Station 11
+https://www.hackerrank.com/challenges/weather-observation-station-10/problem
+
+Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
+
+Query: MySql
+Select distinct City
+From Station
+Where left (City,1) not in ('a' ,'e','i','o', 'u') or right (city,1) not in ('a', 'e', 'i', 'o','u')
